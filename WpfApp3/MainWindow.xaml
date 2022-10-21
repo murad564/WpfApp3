@@ -1,0 +1,139 @@
+﻿<Window x:Class="Lesson3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lesson3" xmlns:sys="clr-namespace:System;assembly=System.Runtime"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <!--<TabControl Background="Bisque">
+            <TabItem Header="Main">
+                <StackPanel>
+                    <Button>1</Button>
+                    <Button>2</Button>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Edit">
+                <StackPanel>
+                    <Button>das</Button>
+                <Button>dasd</Button>
+                </StackPanel>
+            </TabItem>
+        </TabControl>-->
+
+        <!--<ListBox Name="listBox1" SelectionMode="Extended" SelectionChanged="listBox1_SelectionChanged">
+            <Label>Item1</Label>
+            <Label>Item2</Label>
+            <ListBoxItem>
+                <Label>Item3</Label>
+            </ListBoxItem>
+            <sys:DateTime>4/10/2022</sys:DateTime>
+        </ListBox>-->
+
+        <!--<GroupBox Header="buttons" Margin="10" Padding="10" BorderBrush="Black" BorderThickness="3">
+            <StackPanel>
+                <Button Content="1"/>
+                <Button Content="2"/>
+            </StackPanel>
+        </GroupBox>-->
+
+        <!--<StackPanel>
+            <Expander Padding="5" Margin="5" Header="Question 1">
+                <StackPanel>
+                    <Label Content="1"/>
+                    <Label Content="2"/>
+                    <Label Content="3"/>
+                    <Expander>
+                        <Button Content="4"/>
+                    </Expander>
+                </StackPanel>
+            </Expander>
+            <Expander Padding="5" Margin="5" Header="Question 2">
+                <StackPanel>
+                    <Label Content="1"/>
+                    <Label Content="2"/>
+                    <Label Content="3"/>
+                </StackPanel>
+            </Expander>
+        </StackPanel>-->
+        <!--<StackPanel>
+            <Label x:Name="lbl_fnt" DockPanel.Dock="Top">
+                FontChange
+            </Label>
+            <Slider  Minimum="0" Maximum="100" Value="20" ValueChanged="Slider_ValueChanged"></Slider>
+        </StackPanel>-->
+
+        <!--<StackPanel>
+            <Border Width="100" Height="100" BorderBrush="Black" Background="Beige"  BorderThickness="1" CornerRadius="100">
+                <Button BorderThickness="0" Content="Click" Background="Transparent"/>
+            </Border>
+        </StackPanel>-->
+        <!--<ScrollBar/>-->
+        <!--<ScrollViewer ScrollViewer.HorizontalScrollBarVisibility="Visible">
+                <StackPanel>
+                    <Button Height="200" Content="1"/>
+                    <Button Height="200" Content="2"/>
+                    <Button Height="200" Content="3"/>
+                </StackPanel>
+            </ScrollViewer>-->
+        <!--<Frame Name="frame"></Frame>-->
+
+        <!--<StackPanel>
+            <Label Content="_Username" FontSize="36" Target="txt_username"/>
+            <TextBox Name="txt_username" FontSize="36"></TextBox>
+            <Label Content="_Password" FontSize="36" Target="txt_password"/>
+            <TextBox Name="txt_password" FontSize="36"></TextBox>
+        </StackPanel>-->
+        <!--<StackPanel Width="350" Height="100" Orientation="Horizontal">
+            <RepeatButton Click="RepeatButton_Click" Width="70" Content="Down"/>
+            <ProgressBar Name="pbar" Minimum="0" Maximum="100" Margin="5 0" Width="200" />
+            <RepeatButton Click="RepeatButton_Click" Width="70" Content="Up"/>
+            <RepeatButton />
+        </StackPanel>-->
+
+        <!--<ToggleButton IsChecked="{x:Null}"></ToggleButton>-->
+
+        <!--<StackPanel>
+            <RadioButton>1</RibbonRadioButton>
+            <RadioButton>2</RibbonRadioButton>
+            <RadioButton>3</RibbonRadioButton>
+        </StackPanel>-->
+
+        <!--<StackPanel>
+            <CheckBox BorderBrush ="Green" Background="Bisque">BMW</CheckBox>
+            <CheckBox BorderBrush ="Green" Background="LightBlue">Mercedes</CheckBox>
+            <CheckBox BorderBrush ="Green" Background="Chocolate">Kia</CheckBox>
+            <CheckBox BorderBrush ="Green" Background="Red">Mazda</CheckBox>
+            <RibbonCheckBox BorderBrush ="Green" Background="Black">Audi</RibbonCheckBox>
+        </StackPanel>-->
+
+        <!--<StackPanel>
+            <RadioButton BorderBrush ="Green" Background="Bisque">BMW</RadioButton>
+            <RadioButton BorderBrush ="Green" Background="LightBlue">Mercedes</RadioButton>
+            <RadioButton BorderBrush ="Green" Background="Chocolate">Kia</RadioButton>
+            <RadioButton BorderBrush ="Green" Background="Red">Mazda</RadioButton>
+            
+        </StackPanel>-->
+
+        <!--<Border CornerRadius="50" Height="100" Width="100" Background="Lime">
+            <Button FontSize="38">Click</Button>
+        </Border>-->
+        
+
+        <!--<Grid>
+
+            <Button FontSize="42" Content="Click" Margin="250 150">
+                <Button.ToolTip>
+                    <StackPanel>
+                        <Label>olalala</Label>
+                        <Line Stroke="Lime" X1="65"/>
+                        --><!--<Image Stretch="Fill" Width="50" Height="75" Source="wpf.jfif"  ></Image> Have some problems --><!-- 
+                    </StackPanel>
+                </Button.ToolTip>
+            </Button>
+
+        </Grid>-->
+
+    </Grid>
+    </Window>
